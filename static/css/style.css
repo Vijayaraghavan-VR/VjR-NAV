@@ -172,7 +172,7 @@
 
 .navbar-dark .navbar-brand {
   transition: 0.5s;
-  color: #000000;
+  color: #ffffff;
   font-size: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -183,7 +183,7 @@
 
 .navbar-dark .navbar-brand:hover {
   color: #7FFFD4;
-  color: #FFFFFF;
+  color: #000000;
   transition: 0.8s;
 }
 .clr {
@@ -215,20 +215,7 @@ body{
   width: 200px;
   margin-bottom: -10px;
 }
-/* .ggg {
-   background-image: "static\images\imageedit_1_5231061008.png"; 
-  background-color: #000000;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top:10px;
-  margin-bottom: 10px;
-}
 
-.pro {
-  display: flex;
-  margin-left: 100px; 
-  height : 100vh;
-} */
 .bottom-container{
   background-color: #C0C0C0;
   height: 30px;
@@ -270,25 +257,19 @@ body{
   height: 20px;
   width: 20px;
 }
-
-
-
-#contact {
-  background-color: #000;
-  background-repeat: repeat;
-  background-size: cover;
-  background-size: 100%;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.contact {
+  background-color: black;
+}
+.vijay {
+  background-color: #A08BD0;
 }
 
 #contact-h5 {
+  margin-top: 10px;
   transition: 0.5s;
+  margin-bottom: 5px;
   color: #fff;
   display: inline-block;
-  border-bottom: 0.05px solid #fff;
-  padding-bottom: 1px;
   font-size: 44px;
   font-family: 'signature', sans-serif; 
   font-weight: 200; 
@@ -297,23 +278,16 @@ body{
 
 #contact-h5:hover {
   transition: 0.5s;
-  color: #c200fd;
-  border-bottom: 0.05px solid #c200fd;
+  color: aqua;
 }
 
 #contact img {
   top: 100px;
+  margin-top: -10px;
   display: inline-block;
   height: 250px;
   width: 250px;
   border-radius: 1000px;
-  background-color: rgba(255, 255, 255, 0.294);
-}
-
-.contact {
-  border: None;
-  background-color: transparent;
-  height: 250px;
 }
 
 .contact .col-md-4 .card-img {
@@ -323,7 +297,7 @@ body{
 }
 
 .contact-title {
-  color: #ffa601;
+  color: aquamarine;
   font-size: 26px;
   font-family: 'Oswald', sans-serif; 
   font-weight: 300; 
@@ -331,7 +305,7 @@ body{
 }
 
 .contact-text {
-  color: #bafd00;
+  color: #A08BD0;
   font-size: 24px;
 }
 
@@ -343,7 +317,7 @@ body{
 
 .contact-text a:hover{
   transition: 0.5s;
-  color: #ffa601;
+  color: aquamarine;
   text-decoration: None;
 }
 
@@ -356,4 +330,4 @@ body{
   font-family: 'signature', sans-serif; 
   font-weight: 200; 
   letter-spacing: 1px;
-}
+} 
