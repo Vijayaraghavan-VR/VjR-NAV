@@ -268,6 +268,8 @@ body{
   margin-top: 10px;
   transition: 0.5s;
   margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   color: #fff;
   display: inline-block;
   font-size: 44px;
@@ -433,6 +435,160 @@ background-size: cover;
  -moz-background-size: cover;
  -ms-background-size: cover;
 }
+
+#exp {
+	background-color: black;
+	background-repeat: repeat;
+	background-size: cover;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+  
+  .exp { 
+	background-position: center center;
+	border: None;
+	background-color: rgba(255, 255, 255, 0.12);
+	max-height: auto;
+	max-width: 100;
+	min-height: auto;
+	border-radius: 5px;
+  }
+  
+  .exp .col-md-4 .card-img {
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
+	height: 50%;
+	width: 50%;
+  }
+  
+  .exp-title {
+	color: #ffa601;
+	font-size: 26px;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300; 
+	letter-spacing: 1px;
+  }
+  
+  .exp-text {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-weight: 300;
+  }
+  
+  .exp img {
+	height: auto;
+	width: auto;
+	padding-top: auto;
+	padding-bottom: auto;
+  }
+  
+  #exp-desc p {
+	color: white;
+  }
+  
+  #exp-desc p a {
+	transition: 0.5s;
+	color: #ffa601;
+	text-decoration: None;
+  }
+  
+  #exp-desc p a:hover {
+	transition: 0.5s;
+	color: #fff;
+	text-decoration: None;
+  }
+  #portfolio {
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: auto;
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  #portfolio-h5 {
+	transition: 0.5s;
+	color: #fff;
+	display: inline-block;
+	font-size: 44px;
+	font-family: 'signature', sans-serif; 
+	font-weight: 200; 
+	letter-spacing: 1px;
+  }
+  
+  #portfolio-h5:hover {
+	transition: 0.5s;
+	color: aqua;
+  }
+  
+  #portfolio-coming-soon {
+	transition: 0.5s;
+	color: #ebebebe5;
+	display: inline-block;
+	padding-bottom: 1px;
+	font-size: 36px;
+	font-family: 'signature', sans-serif; 
+	font-weight: 200; 
+	letter-spacing: 1px;
+  }
+  
+  #portfolio-projects {
+	transition: 0.5s;
+	color: #bafd00;
+	display: inline-block;
+	border-bottom: 0.05px solid #bafd00;
+	padding-bottom: 1.5px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 200; 
+	letter-spacing: 1px;
+  }
+  
+  .card {
+	background-color: black;
+  }
+  
+  .card img {
+	display: inline-block;
+	height: 35%;
+	width: 35%;
+  }
+  
+  .card-title {
+	color: aqua;
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300; 
+	letter-spacing: 1px;
+  }
+  
+  .card-text {
+	color: rgba(255, 255, 255, 0.90);
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 200; 
+	letter-spacing: 1px;
+  }
+  
+  .card .card-body .btn {
+	transition: 0.5s;
+	background-color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 0;
+	border-radius: 0;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 300; 
+  }
+  
+  .card .card-body .btn:hover {
+	transition: 0.5s;
+	background-color: #fff;
+	color: #c200fd;
+  }
 
 @media(max-width:800px){
 	.thumb:hover ul li {
