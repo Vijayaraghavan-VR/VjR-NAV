@@ -346,7 +346,7 @@ span.border {
 span.border:after {
      content: ' ';
   position: absolute;
-  background: #00a78e;
+  background: #A08BD0;
   height: 7px;
   display: block;
   width: 73px;
@@ -356,7 +356,7 @@ span.border:after {
 span.border.one:after {
   content: ' ';
   position: absolute;
-  background: #00a78e;
+  background: #A08BD0;
   height: 7px;
   display: block;
   width: 73px;
@@ -404,8 +404,8 @@ margin-right: 0.2em;
 .about-left-grid ul li a {
      padding: 0.6em 2em;
   font-size: 1.2em;
-  color: #00a78e;
-  border: 2px solid #00a78e;
+  color: black;
+  border: 2px solid #A08BD0;
   text-decoration: none;
   border-radius: 1.5em;
   -webkit-border-radius: 1.5em;
@@ -414,8 +414,8 @@ margin-right: 0.2em;
   -ms-border-radius: 1.5em;
 }
 .about-left-grid ul li a:hover{
-background:#00a78e;
-color:#FFF;
+background:#A08BD0;
+color:black;
 border-radius:1.5em;
 -webkit-border-radius:1.5em;
 -moz-border-radius:1.5em;
@@ -817,7 +817,7 @@ background-size: cover;
 	span.border.one:after {
 		content: ' ';
 		position: absolute;
-		background: #00a78e;
+		background: #A08BD0;
 		height: 7px;
 		display: block;
 		width: 73px;
@@ -827,7 +827,7 @@ background-size: cover;
 	span.border.two:after {
 		content: ' ';
 		position: absolute;
-		background: #00a78e;
+		background: #A08BD0;
 		height: 7px;
 		display: block;
 		width: 73px;
