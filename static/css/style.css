@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 
 @font-face {
-  font-family: autography;
-  src: url("../fonts/Autography.otf") format("opentype");
-}
-
-@font-face {
   font-family: signature;
   src: url("../fonts/Photograph Signature.ttf") format("opentype");
 }
@@ -334,8 +329,6 @@ body{
   letter-spacing: 1px;
 } 
 
-
-/*-- about-us --*/
 span.border {
   width: 18%;
   background: #A08BD0;
@@ -558,6 +551,29 @@ background-size: cover;
   .card {
 	background-color: black;
   }
+  .car {
+	  background-color: #000000;
+  }
+  #servs {
+	  background-color: #A08BD0;
+  }
+  #services-h5 {
+	transition: 0.5s;
+	color: #fff;
+	display: inline-block;
+	font-size: 44px;
+	font-family: 'signature', sans-serif; 
+	font-weight: 200; 
+	letter-spacing: 1px;
+  }
+  #services-h5:hover {
+	transition: 0.5s;
+	color: #000000;
+
+  }
+  #lll {
+	  color: #A08BD0;
+  }
   
   .card img {
 	display: inline-block;
@@ -596,8 +612,12 @@ background-size: cover;
   .card .card-body .btn:hover {
 	transition: 0.5s;
 	background-color: #ffffff;
-	color: #00000;
+	color: #000000;
   }
+
+
+/*Responsive Design */
+
 
 @media(max-width:800px){
 	.thumb:hover ul li {
