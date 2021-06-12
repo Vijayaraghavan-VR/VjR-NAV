@@ -282,12 +282,12 @@ body{
   padding-bottom: 80px;
   text-align: center;
 }
-.footer-link{
+/* .footer-link{
   margin-right: 30px;
   margin-bottom: 5px;
   text-decoration:none;
   color: #000000;
-}
+} */
 .copyrights{
   margin-top: 20px;
   text-align: center;
@@ -752,10 +752,10 @@ background-size: cover;
 	#work,.blog{
 		padding:4em 0;
 	}
-	.footer {
+	/* .footer {
 		min-height: 650px;
 		padding: 4em 0 0em 0;
-	}
+	} */
 	#port {
       padding:4em 0 0 0;
 	}
@@ -807,10 +807,10 @@ background-size: cover;
 	#port {
 		padding: 3em 0 0 0;
 	}
-	.footer {
+	/* .footer {
 		min-height: 587px;
 		padding: 3em 0 0em 0;
-	}
+	} */
 	ul.year li:nth-child(2) {
 		margin-top: 157px;
 	}
