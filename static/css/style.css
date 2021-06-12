@@ -114,20 +114,83 @@
 }
 
 
-.navbar {
+/* .navbar {
   background-image:
     linear-gradient(
       to bottom,
       #C0C0C0
     );
-}
+} */
 .kosu {
   text-align: center;
   padding-top: -200px;
 
 }
 
-.navbar-dark {
+.navbar {
+	background-image:
+	  linear-gradient(
+		to bottom, 
+		/* rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.205), #00000000 */
+		#C0C0C0
+	  );
+  }
+  
+  .navbar-dark {
+	transition: 0.5s;
+	background-color: #C0C0C0;
+  }
+  
+  .navbar-dark.scrolled {
+	transition: 0.5s;
+	background-color: transparent;
+  }
+  
+  .navbar-nav a {
+	transition: 0.5s;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: rgb(184, 184, 184);
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+	padding-right: 10px;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+	color: black;
+  }
+  
+  .navbar-nav a:hover {
+	color: aqua;
+	transition: 0.6s;
+  }
+  
+  .navbar .navbar-nav .nav-item .active {
+	transition: 0.3s;
+	font-weight: 300;
+	color: aqua;
+  }
+  
+  .navbar-dark .navbar-brand {
+	font-family: 'signature', sans-serif;
+	transition: 0.5s;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+	font-weight: 300;
+  }
+
+  .navbar-dark .navbar-brand:hover {
+	color: #7FFFD4;
+	color: #000000;
+	transition: 0.8s;
+  }
+
+/* .navbar-dark {
   transition: 0.5s;
   background-color: 	#C0C0C0;
 }
@@ -180,7 +243,7 @@
   color: #7FFFD4;
   color: #000000;
   transition: 0.8s;
-}
+} */
 .clr {
   color: aqua;
   margin-top: 15%;
@@ -399,8 +462,9 @@ margin-right: 0.2em;
 .about-left-grid ul li a {
      padding: 0.6em 2em;
   font-size: 1.2em;
-  color: black;
-  border: 2px solid #A08BD0;
+  background: black;
+  color: white;
+  
   text-decoration: none;
   border-radius: 1.5em;
   -webkit-border-radius: 1.5em;
@@ -409,7 +473,7 @@ margin-right: 0.2em;
   -ms-border-radius: 1.5em;
 }
 .about-left-grid ul li a:hover{
-background:#A08BD0;
+background:aqua;
 color:black;
 border-radius:1.5em;
 -webkit-border-radius:1.5em;
@@ -613,6 +677,37 @@ background-size: cover;
 	transition: 0.5s;
 	background-color: #ffffff;
 	color: #000000;
+  }
+
+  .footer {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 300; 
+  }
+  
+  .footer-copyright {
+	padding-left: 2.5%;
+  }
+  
+  .footer a {
+	transition: 0.5s;
+	color: #fff;
+  }
+  
+  #github-icon a {
+	transition: 0.5s;
+	padding-top: 5px;
+	color: #fff;
+  }
+  
+  #github-icon a:hover {
+	transition: 0.5s;
+	padding-top: 5px;
+	color: #ffa601;
   }
 
 
@@ -909,7 +1004,7 @@ background-size: cover;
 		padding: 10px 10px;
 		margin-bottom: 12px;
 		outline: none;
-		border: 2px solid #00a78e;
+		border: 2px solid aqua;
 		font-size: 0.9em;
 	}
 	.mail_right textarea {
@@ -1145,7 +1240,7 @@ background-size: cover;
 		font-size: 1.8em;
 	}
 	.logo span {
-		border: 7px solid #00a78e;
+		border: 7px solid aqua;
 		padding: 0px 10px;
 		font-size: 1.2em;
 	}
